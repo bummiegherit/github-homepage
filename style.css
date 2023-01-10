@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    font-weight: 100;   
+ }
+ body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center
+ }
+ p{
+    text-align: center;
+    margin-top: 15px;
+ }
+ #title{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+ }
+ img{
+    width: 60px;
+    height: 60px;    
+ }
+ section p{
+    font-size: 14px;
+ }
+ a{
+    text-decoration: none;
+ }
+ form{
+    display: block;
+ }
+ #form{
+    padding: 10px 15px;
+    background-color: rgba(208, 220, 230, 0.704);
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 1px solid rgb(202, 217, 230);    
+ }
+ input, button{
+    width: 100%;
+    padding: 7px 10px;
+    border-radius: 5px;border: none;
+    margin: 10px 0;
+ }
+ button{
+    background-color: green;
+    margin-top: 10px;
+    color: #fff;
+    cursor: pointer;
+ }
+ button:hover{
+    background-color: rgb(7, 172, 7);
+    transition-duration: 0.5s;    
+}
+ input{
+    border: none;
+ }
+ input[type=text]:focus, [type=password]:focus {
+    outline: none;
+    border: 2px solid blue;
+ }
+ form div a{
+    position: absolute;
+    right: 38%;
+ }
+ #after-form{
+    margin-top: 20px;
+ }
+ footer{
+    margin-top: 40px;
+    padding: 5px 20px;
+ }
+ footer a{
+    margin: 0 5px;
+    text-decoration: none;
+ }

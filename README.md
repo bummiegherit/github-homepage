@@ -1,2 +1,2 @@
 # github-homepage
-I relicated the gitHub homepage
+I replicated the gitHub homepage
